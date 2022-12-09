@@ -1,0 +1,57 @@
+.playground {
+  position: relative;
+  width: 1920px;
+  height: 720px;
+  background-image: url("img/lavaland.png");
+  background-size: cover;
+}
+
+.player {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  background-image: url("img/drache.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.baum {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("img/tree.png");
+  background-size: cover;
+}
+
+.enemy1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/tree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fullscreen {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fullscreen p {
+  font-weight: 600;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
